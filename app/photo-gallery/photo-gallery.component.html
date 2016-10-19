@@ -1,0 +1,14 @@
+<h2>{{title}}</h2>
+
+<div *ngIf="selectedPhoto"><img src="{{selectedPhoto.imageUrl}}"></div>
+
+<ul>
+    <li *ngFor="let photo of photos"
+    (click)="onSelect(photo)">
+        <img src="{{photo.thumbUrl}}">
+        {{photo.title}}
+    </li>
+</ul>
+
+
+        

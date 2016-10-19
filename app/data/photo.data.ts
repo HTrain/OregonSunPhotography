@@ -1,0 +1,13 @@
+import { Photo } from '../photo-gallery/shared/photo';
+
+export const PHOTOS: Photo[] = [
+    { id: 1, title: 'testArworkTitle1', caption: 'testArtworkCaption1', imageUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/img1.jpg', thumbUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/thumbnails/img1-thumb.jpg'},
+    { id: 2, title: 'testArworkTitle2', caption: 'testArtworkCaption2', imageUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/img2.jpg', thumbUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/thumbnails/img2-thumb.jpg'},
+    { id: 3, title: 'testArworkTitle3', caption: 'testArtworkCaption3', imageUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/img3.jpg', thumbUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/thumbnails/img3-thumb.jpg'},
+    { id: 4, title: 'testArworkTitle4', caption: 'testArtworkCaption4', imageUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/img4.jpg', thumbUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/thumbnails/img4-thumb.jpg'},
+    { id: 5, title: 'testArworkTitle5', caption: 'testArtworkCaption5', imageUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/img5.jpg', thumbUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/thumbnails/img5-thumb.jpg'},
+    { id: 6, title: 'testArworkTitle6', caption: 'testArtworkCaption6', imageUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/img6.jpg', thumbUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/thumbnails/img6-thumb.jpg'},
+    { id: 7, title: 'testArworkTitle7', caption: 'testArtworkCaption7', imageUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/img7.jpg', thumbUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/thumbnails/img7-thumb.jpg'},
+    { id: 8, title: 'testArworkTitle8', caption: 'testArtworkCaption8', imageUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/img8.jpg', thumbUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/thumbnails/img8-thumb.jpg'},
+    { id: 9, title: 'testArworkTitle9', caption: 'testArtworkCaption9', imageUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/img9.jpg', thumbUrl: 'http://beyondthenoodleartwork.com.216-158-229-34.plesk100.interserver.net/images/thumbnails/img9-thumb.jpg'}
+];
