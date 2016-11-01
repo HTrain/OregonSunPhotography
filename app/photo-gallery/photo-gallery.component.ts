@@ -12,7 +12,7 @@ import { PhotoService } from './shared/photo.service';
 
 export class PhotoGalleryComponent implements OnInit
 {
-    title = 'Gallery';
+    title = 'Photo Gallery';
     photos: Photo[];
     selectedPhoto: Photo;
 

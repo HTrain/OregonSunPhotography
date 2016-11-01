@@ -1,0 +1,26 @@
+#title-container {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.thumb-container {
+    height: 150px;
+}
+
+#thumbs-container {
+    padding: 0px 200px;
+}
+
+.thumb-img, .selected-img {
+    border: solid black 1px;
+}
+
+#selected-container {
+    text-align: center;
+    margin-bottom: 50px;    
+}
+
+#selected-img {
+    display: block;
+    margin: 0 auto;
+}

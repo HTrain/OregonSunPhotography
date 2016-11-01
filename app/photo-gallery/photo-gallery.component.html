@@ -1,14 +1,23 @@
-<h2>{{title}}</h2>
+<div id="title-container"><h2>{{title}}</h2></div>
 
-<div *ngIf="selectedPhoto"><img src="{{selectedPhoto.imageUrl}}"></div>
+<div *ngIf="selectedPhoto">
+    <div id=selected-container>
+        <img src="{{selectedPhoto.imageUrl}}" id="selected-img">
+        <h3>{{selectedPhoto.title}}</h3>
+        <p>{{selectedPhoto.caption}}</p>
+    </div>
+</div>
 
-<ul>
-    <li *ngFor="let photo of photos"
-    (click)="onSelect(photo)">
-        <img src="{{photo.thumbUrl}}">
-        {{photo.title}}
-    </li>
-</ul>
+<div class="container-fluid" id="thumbs-container">
+    <div class="row">
+        <div class="col-sm-2 thumb-container" *ngFor="let photo of photos"
+        (click)="onSelect(photo)">
+            <img src="{{photo.thumbUrl}}" class="thumb-img">
+        </div>
+    </div>
+</div>
+
+
 
 
         

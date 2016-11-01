@@ -15,7 +15,7 @@ var PhotoGalleryComponent = (function () {
     function PhotoGalleryComponent(router, photoService) {
         this.router = router;
         this.photoService = photoService;
-        this.title = 'Gallery';
+        this.title = 'Photo Gallery';
     }
     PhotoGalleryComponent.prototype.getPhotos = function () {
         var _this = this;
